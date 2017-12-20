@@ -7,7 +7,11 @@ function compile(source){
 	var res
 	var query = loaderUtils.getOptions(this) || {}; 
 	this.cacheable()
-	res=ejs.render(source,query)
+	try{
+		res=ejs.render(source,query)
+	}catch(e){
+		res=source
+	}
 	return res
 }
 

@@ -1,0 +1,23 @@
+{
+  "name": "area-loader",
+  "version": "1.0.0",
+  "description": "allow loader whatever you want for code area",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aliarmo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}

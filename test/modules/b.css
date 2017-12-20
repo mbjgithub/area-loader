@@ -1,0 +1,17 @@
+
+
+<% if(ENV=='prod'){ %>
+html{
+	margin: 0px;
+	padding: 0px;
+}
+<%}else{%>
+html{
+	margin:2px;
+	padding: 2px;
+}
+<%}%>
+
+ul{
+	list-style-type: none
+}
